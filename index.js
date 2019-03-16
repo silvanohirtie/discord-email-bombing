@@ -118,7 +118,7 @@ if (command === 'send') {
             icon_url: client.user.avatarURL
           },
           title: "Info",
-          description: 'Bot developed by Mental#1424'+'\n'+'Special Thanks To: 'Exploit#1337',
+          description: 'Bot developed by Mental#1424'+'\n'+'Special Thanks To: ' + 'Exploit#1337',
           fields: [{
               name: "Find Me On Github!",
               value: "[Click This](https://github.com/MyNameIsMental)"
