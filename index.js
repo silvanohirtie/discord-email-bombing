@@ -118,7 +118,7 @@ if (command === 'send') {
             icon_url: client.user.avatarURL
           },
           title: "Info",
-          description: 'Bot developed by ' + '<@' + "530778425540083723" +'>'+'\n'+'Special Thanks To: ' + '<@' + "285149851572895744" +'>',
+          description: 'Bot developed by Mental#1424'+'\n'+'Special Thanks To: 'Exploit#1337',
           fields: [{
               name: "Find Me On Github!",
               value: "[Click This](https://github.com/MyNameIsMental)"
@@ -128,10 +128,7 @@ if (command === 'send') {
               name: "Command Sytax",
               value: "!send targetmail@targetmail.com text"
             },
-            {
-              name: "Note",
-              value: "You can leave the text blank, random letters will be given"
-            },
+
             {
               name: "Stop",
               value: "Use !stop for stopping the mail bombing"
