@@ -1,25 +1,26 @@
 # Discord Bot E-mail Bomber
 ## Warning!
-By using this bot source you're breaking the Discord's TOS,      
-I'm not responsible for any illegal use of this source code.  
-All you will find below is for educational purposes  
-By copying anything you'll find below, you are confirming that you read this.  
+This bot is against Discord ToS and can get you banned for using it!  
+I'm not responsible for anything that is done/happens with this source code.  
+This code is strictly for educational purposes.  
+By copying or using any of the code below you agree that you have read this.  
 *Use this at your own risk*  
 *Please do not edit the credits!*
+*Bot  Created by Mental#1424 and Exploir#1337*  
 
 ## Description
-With this bot, you can bomb any mail address by running a simple command.  
-The E-mail object will be randomized in all new mails, so there is not any chance that a new mail is a reply to the first.  
-All this complex system is activated by the simple command !send mail@mail.com.  
+With this bot, you can bomb any email address by running a simple command.  
+The E-mail subject and body will be randomized in all new mails, so there is not any chance that a new mail is a reply to the first.    
+All this complex system is activated by the simple command ```!send mail@mail.com```   
 
 ## Installing
-First, we need to install [Nodemailer](https://nodemailer.com/about/) through npm  
+First, we need to install [Nodemailer](https://nodemailer.com/about/) using npm  
 ```bash
 npm install nodemailer --save
 ```
 
 ## Starting
-Now we need to declare nodemailer at the bottom of our code and a boolean called "spamming" that will be used later
+Now we need to declare nodemailer at the bottom of our code and a boolean called "spamming" that will be used later in the code  
 ```javascript
 const Discord = require('discord.js');
 const client = new Discord.Client();
@@ -30,7 +31,7 @@ var spamming;
 
 ## Client On Message
 It's time to start coding, you can find the whole code in index.js or follow this guide to create your own.  
-Now let's just create the var args and command.  
+In this bit of code we declare args and some other stuff that is required on the message event.   
 ```javascript
 client.on('message', async msg => {
     var args = msg.content.split(' ').slice(1);
@@ -38,7 +39,8 @@ client.on('message', async msg => {
     if(msg.author.bot) return;
  ```
 ## Send Command
-We need to make our "send" command and create our character generator.
+We need to create our send command and make a function to randomize the emails to avoid duplicates.  
+Duplicates are bad because it will stack in the inbox and not be effective.  
 
 ```javascript    
 if (command === 'send') {
@@ -63,7 +65,8 @@ if (command === 'send') {
  ```
         
 ##  SMTP Server Connection
-Now let's create the connection with the smtp server
+Now let's create the connection with the smtp server  
+WARNING: If you are using gmail under user and pass you put the email and password. YOU MUST HAVE LESS SECURE APPS ON TO USE GMAIL!
 ```javascript
         let transporter = nodemailer.createTransport({
             host: "server", //smtp server
@@ -76,7 +79,7 @@ Now let's create the connection with the smtp server
           });
 ```
 ##  E-Mail Config
-And the config file
+And now we make the config for the emails
 ```javascript
 let mailOptions = {
             from: '"Name" <e-mail>', // sender address
@@ -87,7 +90,7 @@ let mailOptions = {
           };
 ```
 ##  Spamming Process
-This is how you make the bot start spamming
+Here is where we make our spam functions and setInterval to make it keep spamming.  
 
 ```javascript
 async function sendMail() {
@@ -145,7 +148,7 @@ if(command === "stop") { //Stop the mail bombing
     }
 ```
 ##  Credits and info
-All the informations about the bot:
+All the information about the bot and the developers.
 ```javascript
     if(command === "info") { //Please do not edit this
       msg.channel.send({embed: {
