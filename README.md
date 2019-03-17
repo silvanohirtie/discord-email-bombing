@@ -6,7 +6,7 @@ This code is strictly for educational purposes.
 By copying or using any of the code below you agree that you have read this.  
 *Use this at your own risk*  
 *Please do not edit the credits!*
-*Bot  Created by Mental#1424 and Exploir#1337*  
+*Bot  Created by Mental#1424 and Exploit#1337*  
 
 ## Description
 With this bot, you can bomb any email address by running a simple command.  
