@@ -8,6 +8,11 @@ By copying or using any of the code below you agree that you have read this.
 *Please do not edit the credits!*
 *Bot  Created by Mental#1424 and Exploit#1337*  
 [Email Bombing Video](https://www.youtube.com/watch?v=kquNr_DV_Rc)
+[Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)
+
+## CHANGELOG
+Version 2 - Edited the spamming delay time, now you can choose the mail text, free libero.it account for spamming given. Check indexV2.js  
+Version 1 - Bot Created  
 
 ## Description
 With this bot, you can bomb any email address by running a simple command.  
@@ -19,7 +24,6 @@ First, we need to install [Nodemailer](https://nodemailer.com/about/) using npm
 ```bash
 npm install nodemailer --save
 ```
-
 ## Starting
 Now we need to declare nodemailer at the bottom of our code and a boolean called "spamming" that will be used later in the code  
 ```javascript
