@@ -12,6 +12,7 @@ By copying or using any of the code below you agree that you have read this.
 
 ## CHANGELOG
 Version 2 - Edited the spamming delay time, now you can choose the mail text, free libero.it account for spamming given. Check indexV2.js  
+\
 Version 1 - Bot Created  
 
 ## Description
