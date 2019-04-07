@@ -1,4 +1,3 @@
-for any issue, join: discord.gg/qzKB7EU
 # Discord Bot E-mail Bomber
 ## Warning!
 This bot is against Discord ToS and can get you banned for using it!  
@@ -10,6 +9,7 @@ By copying or using any of the code below you agree that you have read this.
 *Bot  Created by Mental#1424 and Exploit#1337*  
 [Email Bombing Video](https://www.youtube.com/watch?v=kquNr_DV_Rc)  
 [Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)
+for any issue, join [this discord server](discord.gg/qzKB7EU)
 
 ## CHANGELOG
 Version 2 - Edited the spamming delay time, now you can choose the mail text, free libero.it account for spamming given. Check indexV2.js  
