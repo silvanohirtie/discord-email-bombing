@@ -1,3 +1,4 @@
+for any issue, join: discord.gg/qzKB7EU
 # Discord Bot E-mail Bomber
 ## Warning!
 This bot is against Discord ToS and can get you banned for using it!  
