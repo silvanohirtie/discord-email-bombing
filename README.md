@@ -9,7 +9,7 @@ By copying or using any of the code below you agree that you have read this.
 *Bot  Created by Mental#1424 and Exploit#1337*  
 [Email Bombing Video](https://www.youtube.com/watch?v=kquNr_DV_Rc)  
 [Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)  
-for any issue, join [this discord server](https://discord.gg/hQZyAmp)
+For any issue, join [this discord server](https://discord.gg/hQZyAmp) 
 
 ## CHANGELOG
 Version 2 - Edited the spamming delay time, now you can choose the mail text, free libero.it account for spamming given. Check indexV2.js  
