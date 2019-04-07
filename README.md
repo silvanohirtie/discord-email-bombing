@@ -8,7 +8,7 @@ By copying or using any of the code below you agree that you have read this.
 *Please do not edit the credits!*
 *Bot  Created by Mental#1424 and Exploit#1337*  
 [Email Bombing Video](https://www.youtube.com/watch?v=kquNr_DV_Rc)  
-[Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)
+[Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)  
 for any issue, join [this discord server](discord.gg/qzKB7EU)
 
 ## CHANGELOG
