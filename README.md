@@ -6,7 +6,7 @@ This code is strictly for educational purposes.
 By copying or using any of the code below you agree that you have read this.  
 *Use this at your own risk*  
 *Please do not edit the credits!*
-*Bot  Created by Mental#8106 and Exploit#1337*  
+*Bot  Created by Silvano#8106 and Exploit#1337*  
 [Email Bombing Video](https://www.youtube.com/watch?v=kquNr_DV_Rc)  
 [Email Bombing V2 Video](https://youtu.be/8hPAveapX8w)  
 For any issue, join [this discord server](https://discord.gg/hQZyAmp) 
@@ -122,7 +122,7 @@ async function sendMail() {
               icon_url: client.user.avatarURL
             },
             title: "Bombing",
-            description: "Bot Developed By Mental#1424",
+            description: "Bot Developed By Silvano#8106",
             fields: [{
                 name: "Let's Bomb This Kid!",
                 value: "Bombing In Progress..."
@@ -165,14 +165,14 @@ All the information about the bot and the developers.
             icon_url: client.user.avatarURL
           },
           title: "Info",
-          description: 'Bot developed by Mental#1424'+'\n'+'Special Thanks To: ' + 'Exploit#1337',
+          description: 'Bot developed by Silvano#8106'+'\n'+'Special Thanks To: ' + 'Exploit#1337',
           fields: [{
               name: "Find Me On Github!",
-              value: "[Click This](https://github.com/MyNameIsMental)"
+              value: "[Click This](https://github.com/silvanohirtie)"
             },
            {
               name: "The bot is open source on github!",
-              value: "[Click This](https://github.com/MyNameIsMental/discord-email-bombing)"
+              value: "[Click This](https://github.com/silvanohirtie/discord-email-bombing)"
             },
 
           {
